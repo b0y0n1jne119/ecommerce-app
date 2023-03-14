@@ -2,6 +2,6 @@ import React from 'react';
 
 export default function Header(props) {
     return (
-        <h1>HeaderA</h1>
+        <h1>Header</h1>
     )
 }
