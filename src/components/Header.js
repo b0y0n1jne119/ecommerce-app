@@ -5,6 +5,7 @@ import pic1 from '../assets/images/compare.svg';
 import pic2 from '../assets/images/wishlist.svg';
 import pic3 from '../assets/images/user.svg';
 import pic4 from '../assets/images/cart.svg';
+import menu_header_botoom from '../assets/images/menu.svg';
 
 export default function Header(props) {
     return (
@@ -25,6 +26,8 @@ export default function Header(props) {
                     </div>
                 </div>
             </header>
+
+
             <header className='header-upper py-3'>
                 <div className='container'>
                     <div className='row align-items-center'>
@@ -86,6 +89,8 @@ export default function Header(props) {
                     </div>
                 </div>
             </header>
+
+
             <header className='header-bottom py-3'>
                 <div className='container'>
                     <div className='row'>
@@ -94,17 +99,32 @@ export default function Header(props) {
                                 <div>
                                     <div className="dropdown">
                                         <button
-                                            className="btn btn-secondary dropdown-toggle bg-transparent"
+                                            className="btn btn-secondary dropdown-toggle bg-transparent gap-15 d-flex align-items-center"
                                             type="button"
                                             id="dropdownMenuButton1"
                                             data-bs-toggle="dropdown"
                                             aria-expanded="false">
-                                            Shop Categories
+                                            <img src={menu_header_botoom} alt="" />
+                                            <span className='me-5 d-inline-block'>
+                                                Shop Categories
+                                            </span>
                                         </button>
                                         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            <li>
+                                                <Link className="dropdown-item text-white" to="">
+                                                    Action
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link className="dropdown-item text-white" to="">
+                                                    Another action
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link className="dropdown-item text-white" to="">
+                                                    Something else here
+                                                </Link>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
