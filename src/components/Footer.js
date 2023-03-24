@@ -60,16 +60,16 @@ export default function Footer(props) {
                                     nguyenminhduc119@gmail.com
                                 </a>
                                 <div className='social-icons d-flex algin-items-center gap-30 mt-5'>
-                                    <a href=''>
+                                    <a href='https://twitter.com/' target="_blank" rel="noopener noreferrer">
                                         <BsTwitter className='text-white fs-4' />
                                     </a>
-                                    <a href=''>
+                                    <a href='https://github.com/' target="_blank" rel="noopener noreferrer">
                                         <BsGithub className='text-white fs-4' />
                                     </a>
-                                    <a href=''>
+                                    <a href='https://www.youtube.com/' target="_blank" rel="noopener noreferrer">
                                         <BsYoutube className='text-white fs-4' />
                                     </a>
-                                    <a href=''>
+                                    <a href='https://web.telegram.org/z/' target="_blank" rel="noopener noreferrer">
                                         <BsTelegram className='text-white fs-4' />
                                     </a>
                                 </div>

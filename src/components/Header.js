@@ -36,6 +36,7 @@ export default function Header(props) {
                                 <Link className='text-white'>Dev V</Link>
                             </h2>
                         </div>
+
                         <div className='col-5'>
                             <div className="input-group">
                                 <input
@@ -49,6 +50,7 @@ export default function Header(props) {
                                 </span>
                             </div>
                         </div>
+
                         <div className='col-5'>
                             <div className='header-upper-links d-flex align-items-center justify-content-between'>
                                 <div>
