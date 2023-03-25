@@ -23,6 +23,7 @@ import picbrand5 from '../assets/images/brand-05.png';
 import picbrand6 from '../assets/images/brand-06.png';
 import picbrand7 from '../assets/images/brand-07.png';
 import picbrand8 from '../assets/images/brand-08.png';
+import BlogCard from '../components/BlogCard/BlogCard';
 
 export default function Home(props) {
     return (
@@ -307,7 +308,10 @@ export default function Home(props) {
             <section className='blog-wrapper py-5 home-wrapper-2'>
                 <div className='container'>
                     <div className='row'>
-
+                        <div className='col-12'>
+                            <h3 className='section-heading mb-3'>Our Latest Blogs</h3>
+                        </div>
+                        <BlogCard />
                     </div>
                 </div>
             </section>

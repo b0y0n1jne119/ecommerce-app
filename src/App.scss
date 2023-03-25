@@ -11,6 +11,14 @@
   --color-bf4800: #bf4800;
   --color-f5f5f7: #f5f5f7;
   --color-ededed: #ededed;
+  --color-777777: #777777;
+  --color-131921: #131921;
+}
+
+.section-heading {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 500;
 }
 
 .card-wrapper {
@@ -214,11 +222,10 @@ footer {
         color: var(--color-131921);
     }
   }
+}
 
-  .home-wrapper-2 {
-    background-color: var(--color-f5f5f7);
-  }
-
+.home-wrapper-2 {
+  background-color: var(--color-f5f5f7);
 }
 
 /* Categories part */
