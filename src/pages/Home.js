@@ -23,6 +23,10 @@ import picbrand5 from '../assets/images/brand-05.png';
 import picbrand6 from '../assets/images/brand-06.png';
 import picbrand7 from '../assets/images/brand-07.png';
 import picbrand8 from '../assets/images/brand-08.png';
+import famous1 from '../assets/images/famous-1.jpg';
+import famous2 from '../assets/images/famous-2.jpeg';
+import famous3 from '../assets/images/famous-3.jpg';
+import famous4 from '../assets/images/famous-4.jpg';
 import BlogCard from '../components/BlogCard/BlogCard';
 import ProductCard from '../components/ProductCard/ProductCard';
 import SpecialProduct from '../components/SpecialProduct/SpecialProduct';
@@ -281,12 +285,65 @@ export default function Home(props) {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-3'>
-                            <div className='famous-card bg-dark'>
-                                <h5>Big Screen</h5>
-                                <h6>Smart Watch Series 7</h6>
-                                <p>From $399 or $16.62/mo. for 24 mo.</p>
+                            <div className='famous-card position-relative'>
+                                <img src={famous1}
+                                    className="img-fluid"
+                                    alt="famous"
+                                />
+                                <div className='famous-content position-absolute'>
+                                    <h5>Big Screen</h5>
+                                    <h6>Smart Watch Series 7</h6>
+                                    <p>From $399 or $16.62/mo. for 24 mo.</p>
+                                </div>
                             </div>
                         </div>
+
+
+                        <div className='col-3'>
+                            <div className='famous-card position-relative'>
+                                <img src={famous2}
+                                    className="img-fluid"
+                                    alt="famous"
+                                />
+                                <div className='famous-content position-absolute'>
+                                    <h5>Studio Display</h5>
+                                    <h6>600 nits of brightness.</h6>
+                                    <p>27-inch 5K Retina display</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className='col-3'>
+                            <div className='famous-card position-relative'>
+                                <img src={famous3}
+                                    className="img-fluid"
+                                    alt="famous"
+                                />
+                                <div className='famous-content position-absolute'>
+                                    <h5>Big Screen</h5>
+                                    <h6>Smart Watch Series 7</h6>
+                                    <p>From $399 or $16.62/mo. for 24 mo.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className='col-3'>
+                            <div className='famous-card position-relative'>
+                                <img src={famous4}
+                                    className="img-fluid"
+                                    alt="famous"
+                                />
+                                <div className='famous-content position-absolute'>
+                                    <h5 className='text-dark'>Big Screen</h5>
+                                    <h6 className='text-dark'>Smart Watch Series 7</h6>
+                                    <p className='text-dark'>From $399 or $16.62/mo. for 24 mo.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </section>
