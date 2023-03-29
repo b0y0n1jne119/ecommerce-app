@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProductCard.scss';
 import ReactStars from 'react-rating-stars-component';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import produc1 from '../../assets/images/watch.jpg';
 import produc2 from '../../assets/images/watch-1.jpg';
 import bar1 from '../../assets/images/prodcompare.svg';
@@ -10,9 +10,13 @@ import bar3 from '../../assets/images/add-cart.svg';
 import wish1 from '../../assets/images/wish.svg';
 
 export default function ProductCard(props) {
+
+    const { grid } = props;
+    let location = useLocation();
+
     return (
         <>
-            <div className='col-3'>
+            <div className={` ${location.pathname === '/store' ? `col-${grid}` : "col-3"}`}>
                 <Link className='product-card position-relative'>
                     <div className='wishlist-icon position-absolute'>
                         <Link>
