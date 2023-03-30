@@ -54,7 +54,7 @@ export default function Header(props) {
                         <div className='col-5'>
                             <div className='header-upper-links d-flex align-items-center justify-content-between'>
                                 <div>
-                                    <Link className='d-flex align-items-center gap-10 text-white'>
+                                    <Link to="/compare" className='d-flex align-items-center gap-10 text-white'>
                                         <img src={pic1} alt="compare" />
                                         <p className='mb-0'>
                                             Compare <br /> Products
@@ -134,7 +134,7 @@ export default function Header(props) {
                                     <div className='d-flex align-items-center gap-15'>
                                         <NavLink to="/">Home</NavLink>
                                         <NavLink to="/store">Our Store</NavLink>
-                                        <NavLink to="/">Blogs</NavLink>
+                                        <NavLink to="/blog">Blogs</NavLink>
                                         <NavLink to="/contact">Contact</NavLink>
                                     </div>
                                 </div>

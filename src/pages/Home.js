@@ -431,6 +431,7 @@ export default function Home(props) {
             </section>
 
 
+            {/* BlogCard Part */}
 
             <section className='blog-wrapper py-5 home-wrapper-2'>
                 <div className='container'>
@@ -438,10 +439,33 @@ export default function Home(props) {
                         <div className='col-12'>
                             <h3 className='section-heading mb-3'>Our Latest Blogs</h3>
                         </div>
-                        <BlogCard />
+                    </div>
+
+                    <div className='row'>
+
+                        <div className='col-3'>
+                            <BlogCard />
+                        </div>
+
+                        <div className='col-3'>
+                            <BlogCard />
+                        </div>
+
+                        <div className='col-3'>
+                            <BlogCard />
+                        </div>
+
+                        <div className='col-3'>
+                            <BlogCard />
+                        </div>
+
                     </div>
                 </div>
             </section>
+
+            {/* BlogCard End */}
+
+
         </>
     )
 }

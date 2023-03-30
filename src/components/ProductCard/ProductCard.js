@@ -44,6 +44,13 @@ export default function ProductCard(props) {
                             edit={false}
                             activeColor="#ffd700"
                         />
+                        <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
+                            Trong vũ trụ học vật lý và thiên văn học, năng lượng tối
+                            là một dạng năng lượng chưa biết rõ chiếm phần lớn vũ trụ
+                            và có khuynh hướng tăng tốc độ giãn nở của vũ trụ. Năng
+                            lượng tối là thuyết được chấp nhận nhiều nhất kể từ những
+                            năm 1990, chỉ ra rằng vũ trụ đang giãn nở với vận tốc tăng dần.
+                        </p>
                         <p className='price'>$100.00</p>
                     </div>
 
@@ -95,6 +102,13 @@ export default function ProductCard(props) {
                             edit={false}
                             activeColor="#ffd700"
                         />
+                        <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
+                            Trong vũ trụ học vật lý và thiên văn học, năng lượng tối
+                            là một dạng năng lượng chưa biết rõ chiếm phần lớn vũ trụ
+                            và có khuynh hướng tăng tốc độ giãn nở của vũ trụ. Năng
+                            lượng tối là thuyết được chấp nhận nhiều nhất kể từ những
+                            năm 1990, chỉ ra rằng vũ trụ đang giãn nở với vận tốc tăng dần.
+                        </p>
                         <p className='price'>$100.00</p>
                     </div>
 
