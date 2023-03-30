@@ -3,6 +3,7 @@
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
+    width: 100%;
 
     &:hover .product-img > img:nth-child(1) {
         display: none;
