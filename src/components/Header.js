@@ -62,7 +62,7 @@ export default function Header(props) {
                                     </Link>
                                 </div>
                                 <div>
-                                    <Link className='d-flex align-items-center gap-10 text-white'>
+                                    <Link to="/wishlist" className='d-flex align-items-center gap-10 text-white'>
                                         <img src={pic2} alt="wishlist" />
                                         <p className='mb-0'>
                                             Favourite <br /> wishlist
@@ -70,7 +70,7 @@ export default function Header(props) {
                                     </Link>
                                 </div>
                                 <div>
-                                    <Link className='d-flex align-items-center gap-10 text-white'>
+                                    <Link to="/login" className='d-flex align-items-center gap-10 text-white'>
                                         <img src={pic3} alt="user" />
                                         <p className='mb-0'>
                                             Log in <br /> My Account
@@ -78,7 +78,7 @@ export default function Header(props) {
                                     </Link>
                                 </div>
                                 <div>
-                                    <Link className='d-flex align-items-center gap-10 text-white'>
+                                    <Link to="cart" className='d-flex align-items-center gap-10 text-white'>
                                         <img src={pic4} alt="cart" />
                                         <div className='d-flex flex-column gap-10'>
                                             <span className='badge bg-white text-dark'>0 </span>
