@@ -9,6 +9,8 @@ export default function Blog(props) {
         <>
             <Meta title={"Blog"} />
             <BreadCrumb title="Blog" />
+
+
             <div className="blog-wrapper home-wrapper-2 py-5">
                 <div className="container">
                     <div className="row">

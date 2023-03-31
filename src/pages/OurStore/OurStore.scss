@@ -18,13 +18,6 @@
           margin-top: 20px;
         }
 
-        ul {
-            list-style: none;
-            font-size: 13px;
-            line-height: 30px;
-            color: var(--color-777777);
-            cursor: pointer;
-        }
 
         .form-check-label {
             list-style: none;
@@ -43,18 +36,18 @@
             }          
         }
 
-            .colors {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 10px;
+            // .colors {
+            //     display: flex;
+            //     flex-wrap: wrap;
+            //     gap: 10px;
 
-                li {
-                    width: 20px;
-                    height: 20px;
-                    background-color: red;
-                    border-radius: 50%;
-                }
-            }
+            //     li {
+            //         width: 20px;
+            //         height: 20px;
+            //         background-color: red;
+            //         border-radius: 50%;
+            //     }
+            // }
 }
 
 .random-products {
@@ -80,5 +73,26 @@
     background-color: #f2f2f2;
     padding: 8px;
     border-radius: 3px;
+    cursor: pointer;
+}
+
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    li {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        border-radius: 50%;
+    }
+}
+
+ul {
+    list-style: none;
+    font-size: 13px;
+    line-height: 30px;
+    color: var(--color-777777);
     cursor: pointer;
 }

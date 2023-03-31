@@ -9,6 +9,7 @@ import gr1 from '../../assets/images/gr.svg';
 import gr2 from '../../assets/images/gr2.svg';
 import gr3 from '../../assets/images/gr3.svg';
 import gr4 from '../../assets/images/gr4.svg';
+import Color from "../../components/Color";
 
 export default function OurStore(props) {
 
@@ -92,20 +93,7 @@ export default function OurStore(props) {
 
                                     <h5 className="sub-title-colors">Colors</h5>
                                     <div>
-                                        <ul className="colors ps-0">
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                        </ul>
+                                        <Color />
                                     </div>
 
 

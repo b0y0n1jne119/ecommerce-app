@@ -20,7 +20,7 @@ export default function BlogCard(props) {
                     <p className='desc'>You're Only As Good as your last collection.
                         Which is an Enormous Pressure. I think there is something about ...
                     </p>
-                    <Link className='button' to='/'>Read more</Link>
+                    <Link className='button' to='/blog/:id'>Read more</Link>
                 </div>
             </div>
         </>
