@@ -16,7 +16,7 @@ export default function BlogCard(props) {
                 </div>
                 <div className='blog-content'>
                     <p className='date'>24 March 2023</p>
-                    <h5 class="title">A Beautiful Sunday Morning Renaissance</h5>
+                    <h5 className="title">A Beautiful Sunday Morning Renaissance</h5>
                     <p className='desc'>You're Only As Good as your last collection.
                         Which is an Enormous Pressure. I think there is something about ...
                     </p>

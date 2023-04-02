@@ -79,11 +79,11 @@ export default function Footer(props) {
                         <div className='col-3'>
                             <h4 className='text-white'>Information</h4>
                             <div className='footer-links'>
-                                <Link className='text-white py-2 mb-1 d-flex flex-column'>Privacy Policy</Link>
-                                <Link className='text-white py-2 mb-1 d-flex flex-column'>Refund Policy</Link>
-                                <Link className='text-white py-2 mb-1 d-flex flex-column'>Shipping Policy</Link>
-                                <Link className='text-white py-2 mb-1 d-flex flex-column'>Term & Conditions</Link>
-                                <Link className='text-white py-2 mb-1 d-flex flex-column'>Blogs</Link>
+                                <Link to="/privacy-policy" className='text-white py-2 mb-1 d-flex flex-column'>Privacy Policy</Link>
+                                <Link to="/refund-policy" className='text-white py-2 mb-1 d-flex flex-column'>Refund Policy</Link>
+                                <Link to="/shipping-policy" className='text-white py-2 mb-1 d-flex flex-column'>Shipping Policy</Link>
+                                <Link to="/term-conditions" className='text-white py-2 mb-1 d-flex flex-column'>Term & Conditions</Link>
+                                <Link to="/blog" className='text-white py-2 mb-1 d-flex flex-column'>Blogs</Link>
                             </div>
                         </div>
 

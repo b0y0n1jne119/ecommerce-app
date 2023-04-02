@@ -267,6 +267,8 @@ footer {
 
 /* Categories End */
 
+
+
 /* Home End */
 
 .section-heading {
@@ -275,6 +277,7 @@ footer {
   font-weight: 500;
   margin-bottom: 30px;
 }
+
 
 
 /* Famous Part */
@@ -312,6 +315,7 @@ footer {
 
 /* Famous End */
 
+
 .gr-12 {
   width: 100%;
   .product-card {
@@ -341,3 +345,148 @@ footer {
 .gr-3 {
   width: 24%;
 }
+
+/* Single Blog Part */
+
+.single-blog-card {
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-1c1c1b);
+  }
+  p {
+    color: var(--color-777777);
+    font-size: 14px;
+  }
+  a {
+    font-size: 18px;
+    color: var(--color-777777);
+    margin-bottom: 20px;
+  }
+}
+
+/* Single Blog End */
+
+
+
+/* Policy Part */
+
+.policy {
+  background-color: white;
+  padding: 30px;
+}
+
+/* Policy End */
+
+
+
+/* Main Product Part */
+.description-wrapper {
+  p {
+    font-size: 14px;
+    color: var(--color-777777);
+  }
+}
+
+.review-inner-wrapper {
+  background-color: white;
+  padding: 30px;
+
+  .review-head {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    h4 {
+      font-size: 18px;
+      color: var(--color-1c1c1b);
+    }
+    p, a {
+      font-size: 14px;
+      color: var(--color-777777);
+    }
+  }
+
+  .review-form {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    h4 {
+      font-size: 16px;
+      color: var(--color-777777);
+    }
+  }
+}
+
+.review {
+  &:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  p {
+    font-size: 14px;
+    color: var(--color-777777);
+  }
+}
+
+.description-wrapper h4,
+.reviews-wrapper h3 {
+    font-size: 26px;
+    color: var(--color-1c1c1b);
+    margin-bottom: 10px;
+}
+
+.main-product-img {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  
+  > div {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+  }
+
+  img {
+    width: 100% !important;
+    height: 500px !important;
+    object-fit: cover;
+  }
+
+  .js-image-zoom__zoomed-image {
+    left: 230px !important;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+  }
+}
+
+.other-product-img {
+  background-color: white;
+  padding: 20px;
+
+  > div {
+      width: 48%; 
+      border: 1px solid rgba(0, 0, 0, 0.25);
+      padding: 20px;
+  }
+}
+
+.main-product-details {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+
+  h3.title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-1c1c1b);
+    margin-bottom: 10px;
+  }
+
+  .border-bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  }
+  p.price {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+}
+/* Main Product End */

@@ -61,7 +61,7 @@ export default function Contact(props) {
                                         </div>
 
                                         <div>
-                                            <buttion className="button">Submit</buttion>
+                                            <button className="button">Submit</button>
                                         </div>
 
                                     </form>
